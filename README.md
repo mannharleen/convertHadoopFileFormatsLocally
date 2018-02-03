@@ -20,3 +20,5 @@ I developed this utility to convert certain text-like files into hadoop file for
 #### Using the JAR as an application:
 - java -cp convertHadoopFileFormatsLocally-assembly-0.1.jar csvToParquet.readCsvWriteParquet d:\\abc.csv d:\\abc.parquet string,int,double,string
 
+#### Using the JAR is a Talend job:
+- This is something we are actually doing in our production environment. For detail please refer to my blog at https://bigdatamann.wordpress.com/
